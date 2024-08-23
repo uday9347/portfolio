@@ -11,24 +11,30 @@
  
   </head>
   <body>
-    <nav id="navbar-example2" class="navbar navbar-light bg-dark px-3 sticky-top">
-  <a class="navbar-brand" href="#" style="color:white;">PORTFOLIO</a>
-  <ul class="nav nav-pills">
-
-    <li class="nav-item">
-      <a class="nav-link" href="#scrollspyHeading2">About</a>
-    </li>
-    <li class="nav-item ">
-        <a class="nav-link" href="#scrollspyHeading3">Development Projects</a>
-    </li>
+    <nav id="navbar-example2" class="navbar navbar-expand-lg  sticky-top" style="background:rgba(266,165,0);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color:black">PORTFOLIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2">About</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#scrollspyHeading3">Development Projects</a>
+        </li>
         <li>
-        <a class="nav-link" href="#scrollspyHeading4">EDA Projects</a>
-      </li>
-    <li>
-      <a class="nav-link" href="mailto:udayakaramsetty@gmail.com">Contact</a>
-    </li>
+          <a class="nav-link" href="#scrollspyHeading4">EDA Projects</a>
+        </li>
+        <li>
+          <a class="nav-link" href="mailto:udayakaramsetty@gmail.com">Contact</a>
+        </li>
 
   </ul>
+  </div>
+</div>
 </nav>
 <!--header-->
 <div id="scrollspyHeading1" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
@@ -101,10 +107,14 @@
  </div>
 </section>
 <!--begin projects-->
+<div class='row' id="scrollspyHeading3" style="min-height: 100vh;">
+  <p></p>
+ 
+
 <center>
 <h1 style=" font-style:italic; text-align:center; background:black; color:white; width:50%; margin-top:20px;">PROJECTS</H1>
 </center>
-  <div class='row' id="scrollspyHeading3">
+
     <h3 style='text-align:center;'><u>REST API using DRF</u></h3>
     <div class='col-lg-6 col-sm-12'><img src="{% static "mainapp/images/api1.png" %}" alt=''></div>
         <div class='col-lg-6 col-sm-12'><img src="{% static "mainapp/images/api2.png" %}" alt=''></div>
@@ -122,10 +132,11 @@
           <li>Oracle DB</li>
         </ol></h6>
   </div>
-
-<hr>
 <!--projects end -->
-<div id="scrollspyHeading4">
+<div id="scrollspyHeading4" style="min-height: 100vh;">
+  <br>
+  <br>
+  
   <h1 style="text-align:center;" >DATA ANALYSIS PROJECTS </h1>
   &nbsp <h3><p>GOOGLE PLAYSTORE ANALYSIS</p></h3>
   <p><li>Google Play Store or formerly Android Market, is a digital distribution service developed and operated by Google. It is an official apps store that provides variety content such as apps, books, magazines, music, movies and television programs. It serves an as platform to allow users with 'Google certified' Android operating system devices to donwload applications developed and published on the platform either with a charge or free of cost. With the rapidly growth of Android devices and apps, it would be interesting to perform data analysis on the data to obtain valuable insights.</li>
