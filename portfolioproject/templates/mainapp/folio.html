@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="{% static "mainapp/css/folio.css" %}">
+ 
+  </head>
+  <body>
+    <nav id="navbar-example2" class="navbar navbar-light bg-dark px-3 sticky-top">
+  <a class="navbar-brand" href="#" style="color:white;">PORTFOLIO</a>
+  <ul class="nav nav-pills">
+
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">About</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="#scrollspyHeading3">Development Projects</a>
+    </li>
+        <li>
+        <a class="nav-link" href="#scrollspyHeading4">EDA Projects</a>
+      </li>
+    <li>
+      <a class="nav-link" href="mailto:udayakaramsetty@gmail.com">Contact</a>
+    </li>
+
+  </ul>
+</nav>
+<!--header-->
+<div id="scrollspyHeading1" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-5 px-4 pl-lg-0 pb-0 pb-lg-0">
+                <h1 class='col'>UDAY TEJA AKARAMSETTY <br><span style='font-size: 24px; font-weight: bold; color: #333'></span></h1>
+                 <img class="img-fluid  " style="border-radius:50%;" src="{% static "mainapp/images/profile.jpg" %}" alt="">
+
+              </div>
+              <div class="col-lg-7  text-lg-left"  >
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-12">
+                      
+                        <h3 class="col mb-4" style="font-size:30px;" >PYTHON & DJANGO DEVELOPER </h3>
+                        <p class="col " style='font-size:20px;'>I’m a Python Django Developer with handson  experience in building robust backend solutions. My expertise lies in creating scalable, secure, and efficient web applications that power digital products across various industries, including financial services, e-commerce, and ed-technology.
+
+                                All things Django: API Development. Database Management. Full-Stack Integration.
+                                Yep, I do them all.
+
+                                Let’s build backend systems that are not just functional but also powerful. Systems that scale, adapt, and drive impact.
+</p>
+                            <a href='https://drive.google.com/file/d/1Q_PoLgiE_CpVjKYFoeOxQw4S3gub8uF-/view?usp=sharing'><button type='button' class='btn btn-warning'>My Resume</button></a>
+                    </div>
+
+                </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- header end-->
+  <!--about-->
+<section id="scrollspyHeading2" id="about" style="min-height: 100vh;">
+    <div class="container-fluid py-5" id="about">
+     <div class="container">
+         <div class="position-relative d-flex align-items-center justify-content-center">
+             <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+             <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+         </div>
+         <div class="row align-items-center">
+             <div class="col-lg-5 pb-4 pb-lg-0">
+                  <img class="img-fluid rounded w-100" style='margin-bottom:20px;' src="{% static "mainapp/images/pandas.jpeg" %}" alt="">
+                 <img class="img-fluid rounded w-30 " src="{% static "mainapp/images/django.png" %}" alt="">
+
+
+             </div>
+             <div class="col-lg-7">
+                 <h3 class="mb-4">Python Django Developer & Data Analyst</h3>
+                 <p><li>Having handson Experience in building strong and scalable web applications using <span style='font-weight:bold;'>DJANGO</span> performed session managements with session API and also created user login dashboards who are  having special access for the admins of the that esteemed organisation </li>
+                   <li>Being a Python Developer, I also have much and deeper knowledge in <span style='font-weight:bold;' >Numpy,Pandas,Matplotlib,Sql</span> which are the Python Libraries used majorily in Data Analysis Projects Having handson Experience in Exploratory data analysis I helped one of the banking firm regarding the bank Analysis which helped the organisation to grow bigger</li>
+                 </p>
+                 <div class="row mb-3">
+                     <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">UDAY TEJA AKARAMSETTY</span></h6></div>
+                     <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">12 MAY 2002</span></h6></div>
+                     <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Bachelors </span></h6></div>
+                     <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">9347624407</span></h6></div>
+                     <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">udayakaramsetty@gmail.com</span></h6></div>
+                     <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Hyderabad,Telangana</span></h6></div>
+                     <div class="col-sm-6 py-2"><h6>Skills: <span style='font-weight:bold;'>Python,OOPS,Django,HTML,CSS,JavaScript,Bootstrap,Oracle,MySQL,PostgreSQL
+                       Numpy,Pandas,Matplotlib,Git,Github,AWS EC2,DRF(REST FRAMEWORK),Jinja2,PostmanAPI</span></h6></div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+</section>
+<!--begin projects-->
+<center>
+<h1 style=" font-style:italic; text-align:center; background:black; color:white; width:50%; margin-top:20px;">PROJECTS</H1>
+</center>
+  <div class='row' id="scrollspyHeading3">
+    <h3 style='text-align:center;'><u>REST API using DRF</u></h3>
+    <div class='col-lg-6 col-sm-12'><img src="{% static "mainapp/images/api1.png" %}" alt=''></div>
+        <div class='col-lg-6 col-sm-12'><img src="{% static "mainapp/images/api2.png" %}" alt=''></div>
+        <p><h3 style="font-style:oblique;">A REST API using Django is a web service built with the Django framework that follows the principles of Representational State Transfer (REST)</h3>The above shown images are the prototypes of my project regarding building a rest based api's for my client where the any two applications can be communicated with the api is capable of handling multuple requests from different websites and produces a strong and efficient data flow using json response over the web,The complete API is built using a popular framework DRF(Django Rest Framework) which is the mostly used industry level framework for building api's which are always interoperable.
+
+        <p style="font-weight:bold;">The Authentication for my API is made using a Simple JWT(JSON WEB TOKENS) Framework, through which the user authentication is made to the api and also the restrictions imposed on  the users in accessing the resources.and also the to ensure the perfomance for the api the api is tested with widely used POSTMAN API.</p>
+
+        </p>
+        <h5>Technologies used are:</h5><ol>
+          <li>Django</li>
+          <li>Python</li>
+          <li>Drf(Django Rest Framework)</li>
+          <li>Simple JWT</li>
+          <li>Jinja 2</li>
+          <li>Oracle DB</li>
+        </ol></h6>
+  </div>
+
+<hr>
+<!--projects end -->
+<div id="scrollspyHeading4">
+  <h1 style="text-align:center;" >DATA ANALYSIS PROJECTS </h1>
+  &nbsp <h3><p>GOOGLE PLAYSTORE ANALYSIS</p></h3>
+  <p><li>Google Play Store or formerly Android Market, is a digital distribution service developed and operated by Google. It is an official apps store that provides variety content such as apps, books, magazines, music, movies and television programs. It serves an as platform to allow users with 'Google certified' Android operating system devices to donwload applications developed and published on the platform either with a charge or free of cost. With the rapidly growth of Android devices and apps, it would be interesting to perform data analysis on the data to obtain valuable insights.</li>
+  <li>The dataset that is going to be used is 'Google Play Store Apps' from Kaggle. It contains 10k of web scraped Play Store apps data for analysing the Android market. The tools that are going to be used for this EDA would be numpy, pandas, matplotlib.</li>
+<li>In This Project  I performed Various Data Preparationa and Cleaning Processes.we will be loading the Google Store Apps data stored in csv using pandas which is a fast and powerful python library for data analysis and easy data manipulation in pandas DataFrame object. It is usually used for working with tabular data (e.g data in spreadsheet) in various formats such as CSV, Excel spreadsheets, HTML tables, JSON etc. We will then perform some data preparation and also cleaning on it</li></p>
+<div style="text-align:center"><a href="\project1/" class="btn btn-lg btn-primary">Visit Project</a></div>
+<p><h3 >IPL CRICKET ANALYSIS</h3></p>
+<p><li>This project involves cleaning, processing, and analyzing IPL match data to uncover trends, player performance, and team dynamics. Utilizing Pandas for data manipulation, NumPy for numerical computations, and Matplotlib for visualization, this analysis provides valuable insights into the game's statistics, helping enthusiasts and analysts understand the intricacies of the IPL like never before.
+</li></p>
+<div style="text-align:center"><a href="\project2/" class="btn btn-lg btn-primary">Visit Project</a></div>
+
+</div>
+  </body>
+</html>
